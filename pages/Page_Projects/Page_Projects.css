@@ -1,0 +1,11 @@
+div.projects-page {
+    background-color: #eef5fa;
+    padding: 60px;
+    min-height:100vh;
+    position:relative;
+}
+h1 {
+    margin: 0 0 40px 0;
+    color: #011f4b;
+    font-size: 35px;
+}

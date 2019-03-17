@@ -1,0 +1,110 @@
+div.correctEForm-holder {
+    border-radius: 5px;
+    box-shadow: #d6dce1 2px 2px 3px,#d6dce1 -1px -1px 3px;
+    margin: 20px 0 40px;
+    padding: 15px;
+    background-color: #fff;
+    height: 450px;
+}
+div.correctEForm-holder > form {
+    background-color: #f8fbfd;
+    border-radius: 5px;
+    box-shadow: #d6dce1 1px 1px 1px,#eef5fa -1px -1px 1px;
+    padding: 15px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+}
+div.correctEForm-image {
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:0 0 15px 20px;
+}
+div.correctEForm-image > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+div.labels-holder_2 {
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: #d6dce1 1px 1px 1px, #eef5fa -1px -1px 1px;
+}
+div.labels-holder_2 > label {
+    display: block;
+    margin:5px;
+    position: relative;
+    height: 25px;
+}
+div.labels-holder_2 > label > div {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 130px;
+    width:70%;
+    min-width: 450px;
+    border-bottom: dashed 1px #c1cad0;
+    background-color: transparent;
+
+}
+div.labels-holder_2 > label > div > input {
+    outline:none;
+    border: none;
+    background-color: transparent;
+    padding-left:30px;
+    width: 100%;
+    height:100%;
+}
+div.labels-holder_2 > label:nth-child(1) > div> input{
+    background: url("../../img/SVG/account_circle.svg") no-repeat;
+}
+div.labels-holder_2 > label:nth-child(2) > div> input{
+    background: url("../../img/SVG/perm_contact_calendar.svg") no-repeat;
+}
+div.labels-holder_2 > label:nth-child(3) > div> input{
+    background: url("../../img/SVG/phone_iphone.svg") no-repeat;
+}
+div.labels-holder_2 > label:nth-child(4) > div > input {
+    background: url("../../img/SVG/email1.svg") no-repeat;
+}
+div.labels-holder_2 > label:nth-child(5) > div > input{
+    background: url("../../img/SVG/home.svg") no-repeat;
+}
+div.labels-holder_2 > label:nth-child(6) > div > input{
+    background: url("../../img/SVG/schedule2.svg") no-repeat;
+}
+div.elem-holder_4 {
+    position: relative;
+    height: 35px;
+    margin: 30px 0 0;
+}
+div.elem-holder_4 > button {
+    position: absolute;
+    top:0;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-image: linear-gradient(90deg,#011f4b ,#03396c,#005b96, #6497b1);
+    color: #b3cde0;
+    border-radius: 20px;
+}
+div.elem-holder_4 > button:active {
+    box-shadow: inset 0 0 4px #c9dce9;
+}
+div.elem-holder_4 > button:nth-child(1) {
+    right: 120px;
+}
+div.elem-holder_4 > button:nth-child(2){
+    right:0;
+}
+span.correctForm-error {
+    position: absolute;
+    left:590px;
+    top:5px;
+    color:#6d0000;
+    font-size: 12px;
+}

@@ -1,0 +1,10 @@
+header {
+    display:none;
+    opacity:0;
+    background-image: linear-gradient(90deg,#011f4b ,#03396c,#005b96, #6497b1);
+    color: #b3cde0;
+}
+.header-link {
+    color: #b3cde0;
+    text-decoration: none;
+}

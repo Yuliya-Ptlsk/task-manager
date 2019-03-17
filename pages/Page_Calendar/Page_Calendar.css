@@ -1,0 +1,15 @@
+div.calendar-page {
+
+    padding: 60px;
+    min-height:100vh;
+    position:relative;
+    background: url("/img/calendar1.jpg") no-repeat;
+    background-size: cover ;
+}
+h1.calendar-title {
+    margin: 0 auto 40px;
+    color: #011f4b;
+    font-size: 35px;
+    width: 70%;
+    max-width: 760px;
+}

@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgba(67,78,120,0.7);
+}
+div.main-container {
+    display: flex;
+    flex-direction: row;
+    position:relative;
+}
+.pages {
+    flex-basis: calc(100vw - 275px);
+}
